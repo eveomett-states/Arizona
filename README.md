@@ -3,15 +3,17 @@ This data was generated using data from the Redistricting Data Hub.  Any use of 
 
 Use of this project is further governed by the terms of the [Creative Commons Attribution Noncommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 
-# Arizona Election Shapefile
+# Arizona Json and Shapefile
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu.
+This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook.
 
 # **Sources**
 
 The following obtained from [Redistricting Data Hub](https://redistrictingdatahub.org/) on June, 2024:
 
 [Population data](https://redistrictingdatahub.org/dataset/arizona-block-pl-94171-2020-by-table/): based on the decennial census at the Census Block level on 2020 Census Redistricting Data
+
+[County data](https://redistrictingdatahub.org/dataset/arizona-county-cvap-data-2022/): from the US Census Bureau's 2018-2022 American Community Survey (ACS)
 
 [Congressional District data](https://redistrictingdatahub.org/dataset/2022-arizona-congressional-districts-approved-plan/) 2022 Congressional Districts Approved Interim Plan
 
@@ -25,7 +27,7 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 # **Processing**
 
-Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
+Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup).
 
 # **Metadata**
 
@@ -97,7 +99,3 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `USS20D`: Number of votes for 2020 Democratic senate candidate
 - `USS20R`: Number of votes for 2020 Republican senate candidate
 - `USS20O`: Number of votes for 2020 other party's senate candidate
-
-# **Projection**
-
-The shapefile uses a UTM NAD83 projection (EPSG: 4269).
