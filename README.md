@@ -5,15 +5,13 @@ Use of this project is further governed by the terms of the [Creative Commons At
 
 # Arizona Json and Shapefile
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook.
+This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook. As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
 # **Sources**
 
 The following obtained from [Redistricting Data Hub](https://redistrictingdatahub.org/) on June, 2024:
 
 [Population data](https://redistrictingdatahub.org/dataset/arizona-block-pl-94171-2020-by-table/): based on the decennial census at the Census Block level on 2020 Census Redistricting Data
-
-[County data](https://redistrictingdatahub.org/dataset/arizona-county-cvap-data-2022/): from the US Census Bureau's 2018-2022 American Community Survey (ACS)
 
 [Congressional District data](https://redistrictingdatahub.org/dataset/2022-arizona-congressional-districts-approved-plan/) 2022 Congressional Districts Approved Interim Plan
 
@@ -24,6 +22,8 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 [2018 election data](https://redistrictingdatahub.org/dataset/vest-2018-arizona-precinct-and-election-results/) VEST 2018 precinct and election results
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-arizona-precinct-and-election-results/) VEST 2016 precinct and election results
+
+[2020 County data](https://redistrictingdatahub.org/dataset/arizona-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
 
 # **Processing**
 
